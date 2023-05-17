@@ -1,0 +1,23 @@
+/* class -- which ones similarly styled */ 
+ .old{ 
+    color: rgb(0,0,0);
+    font-family: "DejaVu Sans", Verdana, sans-serif;
+    background-color: #f78282;
+ }
+
+ .newSize {
+    font-size: 24px;
+ }
+
+
+/* id -- which ones completyely unique */
+
+#numTwo{
+    font-size: 36px;
+    color: hsla(232, 99%, 51%, 0.909);
+}
+
+#numFour{
+    font-weight: 1000;
+}
+
