@@ -7,21 +7,44 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /* creates empty space with white colour/ background colour */
 }
 
 .title {
   background: #e3f4ff;
+   /*   margin: 8px;
+    
+   */
+    
+    margin-top: 0;
+    margin-bottom: 8px; /* distance btwn top and below box */
+    padding: 8px; /* creates more blueish background colour */
+    font-size: 16px;
+   
 }
 
 .content {
   background: #e3f4ff;
+  
+  margin-bottom: 8px; /* distance btwn top and below box */
+  padding: 16px 8px; /* 16 creates more blueish background colour top and bottom, 8px creates sides */
+
 }
 
 .button-container {
+
+  
   background: #e3f4ff;
+  padding: 8px; /* creates more blueish background colour */
+  text-align: center;
+ 
+ 
 }
 
 button {
+  display: block;
+  margin: 0 auto; /* 0 pixles away from the cetre*/
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px; /* 24px is for the white space for the button box*/
 }
